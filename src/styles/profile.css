@@ -1,0 +1,128 @@
+.main__container{
+    width: 100vw;
+    height: 100vw;
+    background-color: var(--color-grey-1);
+
+    padding: 60px 0px;
+    overflow-y: auto;
+}
+
+.section__container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 40vw;
+
+    margin: 0 auto;
+
+    color: var(--color-grey-6);
+
+}
+
+/* ------------------------------- Profile ------------------------------- */
+
+
+.organization__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 150px;
+}
+
+.profile__container{
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.profile__image{
+    width: 80px;
+    height: 80px;
+}
+
+.name__stack{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.name__profile{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.stack__profile{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button__profile{
+    padding: 15px 30px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    background-color: var(--color-button);
+    color: var(--color-grey-6);
+
+}
+
+/* ------------------------------- Cards ------------------------------- */
+
+.card__container{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+}
+
+.card__list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+
+    border: 2px solid var(--color-grey-6) ;
+    border-radius: 8px;
+
+    padding: 30px;
+
+    width: 350px;
+}
+
+.title__card{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.description__card{
+    font-size: 14px;
+    font-weight: 400;
+
+    color: var(--color-grey-5);
+    line-height: 150%;
+}
+
+.button__card{
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-6);
+
+    width: 120px;
+
+    padding: 10px 20px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+
+    border: transparent;
+    border-radius: 4px;
+
+    text-decoration: none;
+
+}

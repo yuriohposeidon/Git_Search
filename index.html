@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./src/styles/homePage.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Git Search</title>
+  </head>
+  <body>
+    <main>
+      <section class="main__container">
+        <div class="home__container">
+          <div class="home__organization">
+            <h1 class="title__home">Git Search</h1>
+            <p class="description__home">Encontre e se conecte com profissionais de forma rápida e fácil </p>
+          </div>
+        </div>
+
+        <div class="login__container">
+          <div class="login__organization">
+            <h2 class="title__login">Procurar por um usuários</h2>
+            <h3 class="user__login">Usuário github</h3>
+              <form class="form__container">
+                <input class="input__login"  type="text"
+                        name="usuario"
+                        id="usuario"
+                        placeholder="Digite um usuário do github aqui..."
+                        required 
+                        >
+                <button class="button__login"> Ver perfil do github </button>
+              </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <script type="module" src="./src/scripts/index.js"></script>
+  </body>
+</html>
